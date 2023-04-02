@@ -11,7 +11,7 @@ on:
     branches: [ "main" ]
   schedule:
     # At 00:00:00am, on the 25th day, every month
-    - cron: '0 0 0 25 * ? *'
+    - cron: '0 0 25 * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
